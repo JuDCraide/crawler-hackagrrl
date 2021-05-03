@@ -15,7 +15,7 @@ ROLL = 3
 def get_html(palavra_busca):
     options = FirefoxOptions()
     #options.add_argument("--headless")
-    driver = webdriver.Firefox(executable_path=r'D:\geckodriver.exe',options=options)
+    driver = webdriver.Firefox(executable_path=r'C:\geckodriver.exe',options=options)
     driver.get(BASE_URL+palavra_busca)
 
     SCROLL_PAUSE_TIME = 3
