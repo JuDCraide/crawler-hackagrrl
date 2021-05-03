@@ -67,7 +67,8 @@ Para copiar o projeto, utilize os comandos:
   ❯ cd crawler-hackagrrl
 ```
 
-Antes de rodar o projeto extraia o conteúdo do zip no disco local C:
+Antes de rodar o projeto extraia o conteúdo do zip "geckodriver-v0.29.1-win64.zip" no disco local C:, funciona no Windows 64bits com Firefox. 
+Caso utilize outro sistema operacional ou deseje utilizar outro browser siga as instruções em https://selenium-python.readthedocs.io/installation.html e altere a linha 18 do main.py de acordo.
 
 Para instalar as dependências e iniciar o projeto, você pode utilizar o pip3.
 
